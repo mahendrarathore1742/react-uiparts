@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yesteryear", cursive;
+}
+
+/* .container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.container .box {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.container .box.box1 {
+  background-color: #f00;
+  clip-path: polygon(0 0, 33% 0, 33% 100%, 0% 100%);
+}
+
+.container .box.box2 {
+  background-color: #0f0;
+  clip-path: polygon(33% 0, 67% 0, 67% 100%, 33% 100%);
+}
+
+.container .box.box3 {
+  background-color: #00f;
+  clip-path: polygon(67% 0, 100% 0, 100% 100%, 67% 100%);
+}
+
+.container .content {
+  margin: 20px;
+  padding: 20px;
+  z-index: 10;
+  opacity: 0;
+  transition: 1s;
+}
+
+.container .content h2 {
+  color: #fff;
+  font-size: 12vw;
+  font-weight: initial;
+}
+.container .box.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.container .box:hover {
+  z-index: 1000;
+}
+.container .box.active .content {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.container .box video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+/* 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.containerdata {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.carddata {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  cursor: pointer;
+
+  background: #fafafa;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5); */
+  transition: 0.3s ease-in-out;
+}
+
+.carddata:hover {
+  height: auto;
+}
+.imgBxdata {
+  position: relative;
+  width: 260px;
+  height: auto;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.containerdata .carddata .imgBxdata .Imagesdata {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.containerdata .carddata .contentdata {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #fafafa;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.containerdata .carddata:hover .contentdata {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
