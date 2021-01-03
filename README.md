@@ -94,6 +94,7 @@ var Data = [
       "Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication,",
     src:
       "https://cdn.pixabay.com/photo/2020/09/24/03/50/success-5597527_960_720.png",
+       link: "https://www.google.com/",
 
     Colors: "red"
   },
